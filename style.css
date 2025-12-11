@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #4a90e2;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #222;
+}
+.navbar a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover, .active {
+    background: #4a90e2;
+}
+
+/* HOME PAGE */
+.home-section {
+    text-align: center;
+    padding: 30px;
+}
+.profile-img {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.button {
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {
+    background: #357ABD;
+}
+.hidden {
+    display: none;
+}
+
+/* RESUME & BIODATA */
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.skills li {
+    padding: 5px;
+}
+.biodata-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.biodata-table th, .biodata-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.biodata-table th {
+    background: #efefef;
+}
+.biodata-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
